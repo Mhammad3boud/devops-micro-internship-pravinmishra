@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+A protocol is simply an agreed set of rules that lets two devices exchange data in a way both sides understand — like two people agreeing to speak the same language before a conversation. A real-life example is a phone call: you say "Hello", wait for a reply, take turns, and say "Bye" to end. Networking protocols (HTTP, TCP, IP) define the same kind of format, order, and error handling so computers can communicate reliably.
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user anywhere in the world opens EpicReads, their browser must reach a server hosted in Finland. First, the request is broken into small **packets**. With **packet switching**, each packet can travel a different route across many networks and routers, and they are reassembled in the correct order when they arrive — this makes the internet fast and resilient. Every device involved has a unique **IP address** that identifies it, so packets know where to go and where to return. **TCP/IP** is the core rulebook: IP handles addressing and routing, while TCP ensures every packet arrives, is in order, and is re-sent if lost. On top of this, the browser and server speak **HTTP** to request and deliver web pages. **HTTPS** adds TLS encryption, so data like logins and payments stays private and cannot be tampered with in transit.
 
 ---
 
@@ -102,18 +102,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React (with Next.js)
+* HTML, CSS & JavaScript / Tailwind CSS
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js with Express
+* Python with Django or Flask
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* PostgreSQL (relational)
+* MongoDB (NoSQL / document)
 
 ---
 
@@ -142,7 +142,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS is the internet's phone book. People remember names like `epicreads.com`, but computers connect using IP addresses. When someone visits the domain, DNS resolvers look up the name and return the matching IP address so the browser can reach the correct server.
+
+To point `epicreads.com` to the IPv4 address `52.172.142.222`, an **A (Address) record** should be used, because an A record maps a domain name directly to an IPv4 address. A CNAME cannot be used here since it points to another name, not an IP, and is not allowed on the root domain. The port `:3000` is not handled by DNS — it is managed by the server or a reverse proxy.
 
 ---
 
@@ -218,7 +220,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/mohammed-hussein-050aa1434_devops-networking-cloudcomputing-share-7502943325956493312-hrN3/
 ```
 
 ---
@@ -227,7 +229,30 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+🚀 Week 0 of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — done!
+
+This week was all about the foundations: how the internet actually works and setting up my tools. Here's what I learned:
+
+🤖 ChatGPT as a learning assistant
+I practiced writing clear, specific prompts to break down technical topics. Asking "explain a networking protocol with a real-life example" gave me a simple analogy: a protocol is just an agreed set of rules — like taking turns on a phone call.
+
+🌐 Internet & Networking
+When you open a website, your request is split into packets that travel independently across the network (packet switching) and are reassembled at the other end. Every device has an IP address, TCP/IP guarantees delivery and ordering, and HTTP/HTTPS moves the actual web pages — with HTTPS adding encryption.
+
+🏗️ App Architecture
+Two-tier = frontend + database. Three-tier = frontend + backend + database. Separating the backend makes apps easier to scale and secure. Common stacks: React/Next.js, Node.js or Django, PostgreSQL or MongoDB.
+
+🌍 DNS
+DNS is the internet's phone book — it turns names like epicreads.com into IP addresses. To point a domain at an IPv4 address, you use an A record.
+
+💻 VS Code Setup
+Installed VS Code, opened the integrated terminal, and ran my first commands.
+
+Excited for the weeks ahead! 💪
+
+#DevOps #Networking #CloudComputing #LearningInPublic
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/Mhammad3boud.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
 
 ---
 
@@ -235,19 +260,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+The tooling setup was straightforward — installing VS Code and running commands in the integrated terminal. As a software engineering student, the high-level networking concepts (IP, HTTP, client-server) were already familiar, so writing the explanations came naturally.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Keeping the written answers concise and within the word limits while still covering every required term (packet switching, TCP/IP, DNS record types) was the tricky part. It forced me to actually understand each concept rather than just copy definitions.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I want to get more hands-on rather than just conceptual — practicing commands, taking clear screenshots as evidence, and building the habit of committing and pushing my work to GitHub consistently.
 
 ---
 

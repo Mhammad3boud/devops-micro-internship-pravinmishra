@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="EpicReads Architecture" id="epicreads-arch">
+    <mxGraphModel dx="1059" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="EpicReads Bookstore - Application Architecture" style="text;html=1;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="85" y="24" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="author" value="Prepared by: Mohammed Aboud Hussein  ·  GitHub: Mhammad3boud  ·  DMI Cohort 3 — Week 00" style="text;html=1;fontSize=12;align=center;verticalAlign=middle;fontColor=#555555;" parent="1" vertex="1">
+          <mxGeometry x="85" y="54" width="680" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="two-title" value="Two-Tier Architecture" style="text;html=1;fontSize=16;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="110" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="two-note" value="Client talks directly to the database." style="text;html=1;fontSize=11;align=center;fontColor=#777777;" parent="1" vertex="1">
+          <mxGeometry x="80" y="138" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-fe" value="Frontend / Client&#xa;(Presentation + application logic)&#xa;&#xa;Tech: React, Next.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-db" value="Database&#xa;(Data storage)&#xa;&#xa;Tech: PostgreSQL, MongoDB" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="140" y="350" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-edge" value="Direct DB connection&#xa;(SQL queries)" style="endArrow=classic;startArrow=classic;startFill=1;html=1;fontSize=11;" parent="1" source="t2-fe" target="t2-db" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="three-title" value="Three-Tier Architecture" style="text;html=1;fontSize=16;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="470" y="110" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="three-note" value="A backend sits between the client and the database." style="text;html=1;fontSize=11;align=center;fontColor=#777777;" parent="1" vertex="1">
+          <mxGeometry x="440" y="138" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-fe" value="Frontend, Presentation Tier&lt;br&gt;User interface in the browser&lt;br&gt;&lt;br&gt;Tech: React, Tailwind CSS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+          <mxGeometry x="500" y="170" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-be" value="Backend, Application Tier&lt;br&gt;Business logic + REST API&lt;br&gt;&lt;br&gt;Tech: Node.js + Express, Django" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;verticalAlign=middle;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+          <mxGeometry x="500" y="358" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-db" value="Database — Data Tier&#xa;Persistent storage&#xa;&#xa;Tech: PostgreSQL, MongoDB" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="523" y="546" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-e1" value="HTTP / HTTPS&#xa;(API requests)" style="endArrow=classic;startArrow=classic;startFill=1;html=1;fontSize=11;" parent="1" source="t3-fe" target="t3-be" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-e2" value="DB driver&#xa;(SQL / queries)" style="endArrow=classic;startArrow=classic;startFill=1;html=1;fontSize=11;" parent="1" source="t3-be" target="t3-db" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
