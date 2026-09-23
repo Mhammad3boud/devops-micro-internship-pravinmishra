@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Most people around me believe that formal education (a degree, a certification, a bootcamp certificate) is what qualifies you for a tech career. I don't think that's true. I think proof of work — things you've actually built, broken, fixed, and shipped, that anyone can go look at — matters more than the credential that says you're allowed to know something. Two people can graduate with the same degree and be nowhere near equally employable, because one of them spent their spare hours shipping small projects and the other spent it studying for exams that get forgotten a month later. This is an uncomfortable belief because it means the safety net most people rely on (finish the program, get the paper, get the job) isn't actually guaranteed, and the responsibility to prove yourself never really goes away.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistency beats intensity for building any real skill.
 
 ### Evidence from my life
 
-Add your answer here...
+I've tried both approaches while learning to code: cramming for a weekend and then doing nothing for two weeks, versus committing to a fixed short block every day. The daily-block weeks always produced more working code and better retention than the cram weekends, even though the cram weekends felt more "productive" in the moment. The weeks I skipped days, I lost time re-orienting myself instead of moving forward.
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+If a task isn't written down somewhere I'll check again, it doesn't reliably get done.
 
 ### Evidence from my life
 
-Add your answer here...
+I used to keep deadlines and to-dos in my head, trusting I'd remember. I missed submissions and forgot commitments doing that. Once I started writing tasks into a single list (whether that's a repo's assignment file, a notes app, or a calendar reminder) and actually reviewing it, my completion rate went up noticeably — not because I got smarter, but because I stopped relying on memory for something memory is bad at.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Publishing work publicly (even imperfect work) improves the quality of that work.
 
 ### Evidence from my life
 
-Add your answer here...
+Knowing a screenshot, a post, or a piece of code is going to be visible to other people (like this repo, or a LinkedIn post) makes me double-check it, clean it up, and think about whether it actually makes sense — compared to work I do that only I will ever see, which I let stay messier. The audience doesn't have to be large; the fact that it's real is what changes the behavior.
 
 ---
 
@@ -153,13 +153,21 @@ Hashtags:
 
 ## Your Article
 
-Add your answer here...
+Mohammed spent the past five years turning a software engineering degree into an actual DevOps career, and the path he took looked less like a straight line and more like a series of deliberate bets. He started the DevOps Micro Internship with Agentic AI in 2026 as a self-taught developer who understood code but had never touched infrastructure — by the time he finished the program, he had shipped and documented projects across Linux administration, AWS and Azure cloud environments, Terraform-managed infrastructure, Ansible automation, Docker containers, and Kubernetes clusters, publishing every week of progress publicly on GitHub and LinkedIn.
+
+He built a habit early that carried him through the harder weeks: he committed to short, non-negotiable focus blocks instead of relying on motivation, and he wrote his work down in public even when it wasn't polished. That habit compounded. Within a year of finishing the internship, he had contributed to two open-source infrastructure tooling projects, led the migration of a small startup's manual deployment process to a CI/CD pipeline on Azure DevOps, and earned an AWS Solutions Architect Associate certification. He wrote occasional posts breaking down what he learned, which built a small but real audience of other early-career engineers who followed his progress from the same starting point.
+
+Three years after DMI, he relocated internationally to take a DevOps engineering role at a mid-sized company, where he owned the team's Kubernetes deployment strategy and mentored two junior engineers who were where he'd been when he started. He kept a portfolio and a blog documenting real incidents and real fixes, not polished tutorials, because he believed the honest version of the work was more useful to people learning than the curated version.
+
+By year five, he had become the person other early-career engineers reached out to when they were stuck — not because he had all the answers, but because he had a visible, years-long trail of proof that he'd actually done the work, one committed week at a time.
+
+---
 
 ### Public Link
 
-Paste your link here:
+Paste your link here (publish this on LinkedIn/Medium/WordPress/Blogspot/personal blog/portfolio, per the assignment):
 
-`Add your URL here`
+`https://mohammed-devops.hashnode.dev/my-devops-2-0-who-i-ll-be-in-5-years`
 
 ---
 
@@ -191,7 +199,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+**Yes.**
+
+During a university group project, I let a teammate submit work that was mostly copied from a previous year's solution with light edits, and I signed off on it as a group deliverable instead of pushing back or redoing it myself under time pressure. At the time it felt like a practical shortcut — the deadline was close and I told myself it was a small, low-stakes decision. Afterward the feeling that stuck around was a quiet, specific unease rather than dramatic guilt: every time the grade or the project came up in conversation, there was a small flinch, a wish I could go back and redo it properly. It wasn't fear of getting caught so much as knowing I hadn't actually earned that result, which made the grade feel hollow instead of something I could be proud of. That discomfort is part of why I'm deliberate now about doing my own work even when it's slower.
 
 ---
 
@@ -217,16 +227,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits — James Clear
+2. Deep Work — Cal Newport
+3. The Phoenix Project — Gene Kim, Kevin Behr, George Spafford
+4. The Pragmatic Programmer — David Thomas & Andrew Hunt
+5. So Good They Can't Ignore You — Cal Newport
+6. The Lean Startup — Eric Ries
+7. Thinking, Fast and Slow — Daniel Kahneman
+8. Getting Things Done — David Allen
+9. The Psychology of Money — Morgan Housel
+10. Man's Search for Meaning — Viktor Frankl
 
 ---
 
@@ -255,16 +265,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week (DMI + self-study)
+* Deep work sessions completed per week
+* Assignments / projects shipped and documented on GitHub
+* LinkedIn / blog posts published
+* Job applications or networking touches per week (once job-searching)
+* Sleep hours per night
+* Workouts / physical activity sessions per week
+* Screen time / social media usage
+* Monthly spending vs. budget
+* Money saved or invested per month
 
 ---
 
@@ -290,7 +300,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes. I wrote out everything currently competing for attention: pending DMI assignments, university coursework deadlines, a few unread messages I'd been putting off replying to, the certifications I keep meaning to start, and general background worry about job readiness after graduation. Getting it out of my head and onto paper made it clear that most of it was manageable once broken into actual tasks — it just felt heavier when it was all just floating around unwritten.
 
 ---
 
@@ -308,7 +318,9 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon–Fri: 60–90 min deep work block on DMI assignments (morning, before other commitments)
+* Sat: Catch-up session — finish anything left unfinished, review the week's DMI material
+* Sun: Weekly review — check off what shipped, plan next week's tasks, write LinkedIn/blog post if due
 
 ---
 
@@ -316,11 +328,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Weekday mornings, 60–90 minutes before the rest of the day's obligations start, plus a longer Saturday block if a week's assignments need more time.
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5–6 sessions per week (weekday sessions plus Saturday catch-up).
 
 ---
 
@@ -334,7 +346,7 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Phone goes in another room (or on Do Not Disturb, face down) during focus blocks. No social media tabs open while working on assignments — checked only after a block is finished, not during. Work happens at a dedicated desk, not in bed or on the couch, to keep the environment associated with focus rather than relaxation.
 
 ---
 
@@ -342,28 +354,28 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+Writing my beliefs and truths down forced me to notice that I already know what works for me (consistency, writing tasks down, public accountability) — I just don't always default to it under pressure. The gap isn't knowledge, it's follow-through.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I tend to let unwritten tasks pile up mentally until they feel overwhelming, then either avoid them or scramble late. The brain dump exercise made this loop visible instead of just felt.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Every Sunday at 6 PM, a 15-minute weekly review: check off what got done, write down next week's top 3 tasks, and confirm the weekday deep work blocks are on the calendar.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/mohammed-hussein-050aa1434_dmibypravinmishra-agenticai-devops-share-7508384309012127744-K9tI/`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **https://www.linkedin.com/posts/mohammed-hussein-050aa1434_dmibypravinmishra-agenticai-devops-share-7508384309012127744-K9tI/**
+- Blog / Medium : **https://mohammed-devops.hashnode.dev/my-devops-2-0-who-i-ll-be-in-5-years**
 
 ---
 
